@@ -17,7 +17,7 @@ function adviceHandler(value) {
       //   msg.innerHTML = this
     }
   };
-  xmlHttp.open("GET", "./assets/php/advice-fetching.php?q=" + "sent", true);
+  xmlHttp.open("GET", "../assets/php/advice-fetching.php?q=" + "sent", true);
   xmlHttp.send();
 }
 

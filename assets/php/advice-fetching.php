@@ -23,7 +23,7 @@ function callApi()
 
 callApi();
 
-$q = $_REQUEST["q"];
+$q = (isset($_REQUEST["q"]))?$_REQUEST["q"]:'';
 
 if ($q === 'sent') {
     callApi();

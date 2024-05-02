@@ -1,8 +1,6 @@
 <?php
 
 include "../assets/php/advice-fetching.php";
-phpinfo();
-
 ?>
 
 <!DOCTYPE html>
@@ -46,14 +44,14 @@ phpinfo();
 
     <!-- Divider -->
     <picture class="container">
-      <source media="(min-width: 768px)" srcset="./images/pattern-divider-desktop.svg" alt="" class="app-divider" />
-      <img src="./images/pattern-divider-mobile.svg" alt="" class="app-divider" />
+      <source media="(min-width: 768px)" srcset="../images/pattern-divider-desktop.svg" alt="" class="app-divider" />
+      <img src="../images/pattern-divider-mobile.svg" alt="" class="app-divider" />
     </picture>
 
     <!-- Advice button -->
     <form class="container" id="advice-form">
       <button class="app-button">
-        <img src="./images/icon-dice.svg" alt="dice" class="app-dice" />
+        <img src="../images/icon-dice.svg" alt="dice" class="app-dice" />
       </button>
     </form>
   </main>
